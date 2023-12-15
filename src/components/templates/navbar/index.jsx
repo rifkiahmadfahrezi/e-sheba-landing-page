@@ -8,6 +8,10 @@ export default function Navbar(){
 
     const [ menuOpen, setMenuOpen ] = useState(false)
 
+    useEffect(()=> {
+        (window.innerWidth >= 765) ? setMenuOpen(true) : setMenuOpen(false)
+    }, [])
+
     function menuToggler(){
         (menuOpen && window.innerWidth <= 765) ? setMenuOpen(false) : setMenuOpen(true)
     }
