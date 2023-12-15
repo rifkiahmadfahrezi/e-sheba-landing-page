@@ -1,10 +1,11 @@
 import React from 'react';
 
+import Main from '@/components/pages/Main.jsx'
 
 export default function App(){
   return(
-<>
-    <h1 className='text-red-500'>Hello world</h1>
-</>
+    <>
+        <Main />
+    </>
   )
 }

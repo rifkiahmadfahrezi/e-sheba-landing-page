@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'ibm': ['IBM Plex Sans', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'blue': '#0360D9',
+        'darkblue': '#0D2B46',
+      },
+    },
   },
   plugins: [],
 }
