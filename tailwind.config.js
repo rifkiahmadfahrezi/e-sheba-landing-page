@@ -12,7 +12,11 @@ export default {
       colors: {
         'blue': '#0360D9',
         'darkblue': '#0D2B46',
+        'lightblue': '#E1EEFF'
       },
+      backgroundImage: {
+        'ellipse': 'url(/img/ellipse.svg)',
+      }
     },
   },
   plugins: [],
