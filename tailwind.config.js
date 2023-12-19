@@ -12,10 +12,16 @@ export default {
       colors: {
         'blue': '#0360D9',
         'darkblue': '#0D2B46',
-        'lightblue': '#E1EEFF'
+        'lightblue': '#E1EEFF',
+        'myblack': '#2E2E2E'
       },
       backgroundImage: {
         'ellipse': 'url(/img/ellipse.svg)',
+      },
+      gridTemplateColumns:{
+        'auto-fit': 'repeat(auto-fit, minmax(300px, 1fr))',
+        'auto-fill': 'repeat(auto-fill, minmax(300px, 1fr))',
+
       }
     },
   },
