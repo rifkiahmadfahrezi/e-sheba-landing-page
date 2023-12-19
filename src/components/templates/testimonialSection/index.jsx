@@ -23,7 +23,7 @@ export default function TestimonialSection(){
                                 </figure>
 
                             </article>
-                            <Card className='w-full group ml-0 border border-slate-700'>
+                            <Card className='w-full group bg-white ml-0 border border-slate-700'>
                                 <div className="flex items-center justify-between">
                                     <div className="flex items-center gap-6">
                                        <figure className="w-[70px] h-[70px]">
