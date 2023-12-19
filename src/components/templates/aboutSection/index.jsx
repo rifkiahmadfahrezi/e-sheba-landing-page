@@ -54,7 +54,7 @@ export default function AboutSection(){
                         </SectionContainer>
                         <SectionContainer className="mt-[150px] gap-[70px] flex-col lg:flex-row justify-between">
                             <figure className='w-full'>
-                              <img src="/img/doctors.png"  className='w-full object-cover' alt="" />
+                              <img src="/img/doctors.png"  className='w-full object-cover' alt="a doctor doing surgery" />
                             </figure>
                             
                             <article className='w-full flex flex-col items-start justify-between'>
