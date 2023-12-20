@@ -6,7 +6,7 @@ import Link from '@/UI/atoms/link'
 export default function NavLogo(){
     return(
         <>
-            <Link href='/'>
+            <Link label="our logo" href='/'>
                 <Logo />
             </Link>
         </>

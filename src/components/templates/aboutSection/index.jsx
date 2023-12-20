@@ -68,7 +68,10 @@ export default function AboutSection(){
                                     </CheckedList>
                                 </div>
 
-                                <Link href='#' className="text-blue group flex items-center capitalize text-lg md:mb-10 mb-[-30px]">
+                                <Link 
+                                    label="visit for more information"
+                                    href='#' 
+                                    className="text-blue group flex items-center capitalize text-lg md:mb-10 mb-[-30px]">
                                     learn more
                                     <i className='ml-2 group-hover:translate-x-[10px] group-hover:rotate-[180deg] transition duration-300 bx bx-arrow-back bx-rotate-180' ></i>
                                 </Link>

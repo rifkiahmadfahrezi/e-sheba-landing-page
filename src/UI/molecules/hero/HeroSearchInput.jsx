@@ -8,6 +8,7 @@ export default function HeroSearchInput({icon = null, placeholder}){
                     <i className={`bx ${icon}`}></i>
                 </label>
                 <input 
+                    aria-label={`search ${placeholder}`}
                     type="search" 
                     className="font-ibm py-2 px-4 placeholder:text-black outline-none" 
                     placeholder={placeholder}/>

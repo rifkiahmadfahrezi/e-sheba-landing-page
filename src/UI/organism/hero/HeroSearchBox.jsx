@@ -10,7 +10,7 @@ export default function HeroSearchBox(){
                     <HeroSearchInput icon="bxs-face" placeholder="Doctor's name"/>
                     <HeroSearchInput icon="bx-location-plus" placeholder="Location"/>
                 </div>
-                <button>
+                <button type="submit" role="button" aria-pressed="false" id="searchButton" title="search">
                     <i className="bx bx-search p-5 bg-blue text-white rounded-full mr-[-10px]"></i>
                 </button>
             </form>

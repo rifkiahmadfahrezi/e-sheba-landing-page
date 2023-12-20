@@ -8,7 +8,7 @@ export default function Card({img, title, text}){
                     <figure className="flex flex-col gap-2">
                         <img src={img} width="90" height="90" className='object-cover' alt="" />
                         <figcaption className='mt-3'>
-                            <h5 className='group-hover:text-white font-ibm text-2xl capitalize mb-2 font-semibold'>{title}</h5>
+                            <h1 className='group-hover:text-white font-ibm text-2xl capitalize mb-2 font-semibold'>{title}</h1>
                             <p className='group-hover:text-white text-slate-600 text-md'>{text}</p>
                         </figcaption>
                     </figure>

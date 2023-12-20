@@ -30,7 +30,7 @@ export default function TestimonialSection(){
                                          <img src={`/img/avatars/4.png`} className='w-full object-cover' alt="" />
                                        </figure>
                                         <div className="">
-                                            <h6 className='capitalize font-ibm font-semibold text-md'>jane cooper</h6>
+                                            <h1 className='capitalize font-ibm font-semibold text-md'>jane cooper</h1>
                                             <p>12/4/17</p>
                                         </div>
                                     </div>

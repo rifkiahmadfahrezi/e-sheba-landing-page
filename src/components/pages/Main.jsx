@@ -6,6 +6,7 @@ import AboutSection from "../templates/aboutSection";
 import TestimonialSection from "../templates/testimonialSection";
 import HealthSection from "../templates/healthSection";
 import SubscribeNewslater from "../templates/subscribeNewslater";
+import Footer from "../templates/footer";
 
 export default function Main() {
     return (
@@ -16,6 +17,7 @@ export default function Main() {
             <TestimonialSection />
             <HealthSection />
             <SubscribeNewslater />
+            <Footer />
         </>
     )
 }

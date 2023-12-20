@@ -19,7 +19,10 @@ export default function HealthSection(){
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper. Auctor semper fermentum volutpat integer vel. In rhoncus elementum nunc, malesuada mi sed. Nibh est sit lobortis id semper.</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec risus feugiat lectus risus sed ullamcorper. sed. Nibh est sit lobortis id semper.</p>
                                 </div>
-                                <Link href='#' className="text-blue group flex items-center capitalize text-lg md:mb-10 mb-[-30px] mt-4">
+                                <Link 
+                                    label="visit for more information"
+                                    href='#' 
+                                    className="text-blue group flex items-center capitalize text-lg md:mb-10 mb-[-30px] mt-4">
                                         learn more
                                         <i className='ml-2 group-hover:translate-x-[10px] group-hover:rotate-[180deg] transition duration-300 bx bx-arrow-back bx-rotate-180' ></i>
                                     </Link>
